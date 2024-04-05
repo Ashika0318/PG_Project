@@ -1,0 +1,49 @@
+CHEMICAL PRINTS REPORTS
+
+S.ID: S-40299
+----------------------------------------------------
+Origination(Commencify)
+----------------------------------------------------
+Tree Species: Beech
+Tree Origin: BorealForest
+Tree Age : 28
+Tree Wood Property: Mixed
+Tree Density: 0.56
+Tree Hardness: 550
+Tree Grain Pattern: Interlocked 
+Tree Durability: 1.0
+Tree Eco-Toxicology: High 
+Tree Eco-Toxicity: 0.9
+Tree Eco-Sustainability: High
+----------------------------------------------------
+Fire Resistence
+----------------------------------------------------
+Thickness: 0.75
+Charring Rate: 0.6
+Critical Section Depth: 1.6666666666666667
+Fire Resistence: 1.25
+Fire Resistence Level: Low
+----------------------------------------------------
+Thermal Insulation
+----------------------------------------------------
+T1: 0.75
+T2: 0.6
+Thermal Conductivity Rate Difference: 4.000057
+Average Thermal Conductivity: 0.21
+Thermal Conductivity Level: High
+Thermal Insulation Level: Low
+----------------------------------------------------
+Sound Absorption
+----------------------------------------------------
+Reflection: 0.5
+Transmission: 0.0
+Sound Absorption: 0.5
+Sound Absorption Level: Effective
+----------------------------------------------------
+Eco Toxicity
+----------------------------------------------------
+Reflection: 0.598
+Acute Toxicity[Humans]: Low
+Acute Toxicity[Wildlife]: Moderate 
+Chronic Toxicity[Humans] : Low
+Chronic Toxicity[Wildlife]: Low

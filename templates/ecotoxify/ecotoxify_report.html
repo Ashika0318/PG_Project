@@ -1,0 +1,180 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+  	<title>Ecotoxify :: Record </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="{% static 'scientist/checkpoints/css/style.css' %}">
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Client Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+	<!-- css files -->
+    <link href="{% static 'ecotoxify/ecotoxify_home/css/bootstrap.css' %}" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
+    <link href="{% static 'ecotoxify/ecotoxify_home/css/style.css' %}" rel='stylesheet' type='text/css' /><!-- custom css -->
+	<link href="{% static 'ecotoxify/ecotoxify_home/css/css_slider.css' %}" type="text/css" rel="stylesheet" media="all">
+    <link href="{% static 'ecotoxify/ecotoxify_home/css/font-awesome.min.css' %}" rel="stylesheet"><!-- fontawesome css -->
+	<!-- //css files -->
+
+	<!-- google fonts -->
+	<link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<!-- //google fonts -->
+
+	</head>
+  <style>
+
+
+
+
+.button-25 {
+  background: #039487;
+  border: 1px solid #039487;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-25:hover,
+.button-25:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #039487;
+}
+
+.button-25:active {
+  opacity: .5;
+}
+
+
+</style>
+
+ <body style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({% static 'images/banner4.jpg' %});
+    background-repeat: no-repeat;height:100vh;">
+	<script>
+	{% for msg in messages %}
+		alert('{{ msg }}');
+	{% endfor %}
+</script>
+<header>
+
+	<div class="top-head container">
+		<div class="ml-auto text-right right-p">
+			<ul>
+				<li class="mr-3">
+
+
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<!-- nav -->
+		<nav class="py-3 d-lg-flex">
+			<div id="logo">
+				<h1> <a href="/ecotoxify_home/"><span class="fa fa-free-code-camp"></span> EcoToxify </a></h1>
+			</div>
+			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
+			<input type="checkbox" id="drop" />
+			<ul class="menu ml-auto mt-1">
+				<li ><a href="/">Home</a></li>
+				<li><a href="/f_report/">Fibroanalysis Report</a></li>
+				<li class=""><a href="/process_ecotoxify/">Process Ecotoxify</a></li>
+				<li class="active"><a href="/ecotoxify_report/">View Results</a></li>
+				<li class=""><a href="/ecotoxify_logout/">Logout</a></li>
+
+			</ul>
+		</nav>
+		<!-- //nav -->
+	</div>
+</header>
+<br>
+
+	<section class="ftco-section">
+		<br><br>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 style="margin-right:-80px;color:white;" class="heading-section">ECO-TOXIFY REPORT</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="table-wrap">
+						<table class="table" style="max-height: 120px;
+            overflow-y: auto; overflow-x: auto;">
+						  <thead class="thead-primary" style="position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 2;">
+						    <tr style="background-color:#f4b200;; color:black;font-size: 16px;">
+						      <th style="color:black;text-align:center;">S.ID</th>
+								<th style="color:black;text-align:center;">ECOTOXICITY</th>
+								<th style="color:black;text-align:center;">ACUTE TOXICITY HUMANS</th>
+								<th style="color:black;text-align:center;">ACUTE TOXICITY WILDLIFE</th>
+								<th style="color:black;text-align:center;">CHRONIC TOXICITY HUMANS</th>
+								<th style="color:black;text-align:center;">CHRONIC TOXICITY WILDLIFE</th>
+
+						    </tr>
+						  </thead>
+						  <tbody style="background-color:white; color:black;font-size: 16px;">
+						  {% for i in data %}
+						    <tr>
+									      <th style="color:black;text-align:center;" >{{i.s_id}}</th>
+								  <th style="color:black;text-align:center;" >{{i.ecotoxicity}}</th>
+								  <th style="color:black;text-align:center;" >{{i.acute_toxicity_humans}}</th>
+								  <th style="color:black;text-align:center;" >{{i.acute_toxicity_wildlife}}</th>
+								  <th style="color:black;text-align:center;" >{{i.chronic_toxicity_humans}}</th>
+								  <th style="color:black;text-align:center;" >{{i.chronic_toxicity_wildlife}}</th>
+
+
+
+
+
+							</tr>
+						  {% endfor %}
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<br><br><br><br><br>
+	<script src="{% static 'scientist/checkpoints/js/jquery.min.js' %}"></script>
+  <script src="{% static 'scientist/checkpoints/js/popper.js' %}"></script>
+  <script src="{% static 'scientist/checkpoints/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'scientist/checkpoints/js/main.js' %}"></script>
+
+
+
+	</body>
+</html>
+

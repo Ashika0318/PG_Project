@@ -1,0 +1,181 @@
+tree_species,tree_origin,acute_toxicity_humans,acute_toxicity_wildlife,chronic_toxicity_humans,chronic_toxicity_wildlife
+Alder,NorthernForest,Low ,Moderate ,Moderate,Low
+Alder,EasternWoodland,Low,Moderate ,Low,Low
+Alder,RockyMountains,Low,Low,Low,Low
+Alder,CentralForest,Moderate ,Low,Low,Low
+Alder,BorealForest,Low,High,Moderate,Moderate
+Ash,BorealForest,Moderate ,High ,Low,Low
+Ash,RockyMountains,High,Low,Low,Moderate
+Ash,CentralForest,Low,Moderate ,Low,Low
+Ash,EasternWoodland,Low,Low,Low,Low
+Ash,NorthernForest,Low,Moderate ,Low,Low
+Aspen,NorthernForest,Low ,Moderate ,Moderate,Low
+Aspen,EasternWoodland,Low,Moderate ,Low,Low
+Aspen,RockyMountains,Low,Low,Low,Low
+Aspen,CentralForest,Moderate ,Low,Low,Low
+Aspen,BorealForest,Low,High,Moderate,Moderate
+Beech,NorthernForest,Moderate ,High ,Low,Low
+Beech,EasternWoodland,High,Low,Low,Moderate
+Beech,RockyMountains,Low,Moderate ,Low,Low
+Beech,CentralForest,Low,Low,Low,Low
+Beech,BorealForest,Low,Moderate ,Low,Low
+Birch,NorthernForest,Low ,Moderate ,Moderate,Low
+Birch,EasternWoodland,Low,Moderate ,Low,Low
+Birch,RockyMountains,Low,Low,Low,Low
+Birch,CentralForest,Moderate ,Low,Low,Low
+Birch,BorealForest,Low,High,Moderate,Moderate
+BlackCherry,NorthernForest,Moderate ,High ,Low,Low
+BlackCherry,EasternWoodland,High,Low,Low,Moderate
+BlackCherry,RockyMountains,Low,Moderate ,Low,Low
+BlackCherry,CentralForest,Low,Low,Low,Low
+BlackCherry,BorealForest,Low,Moderate ,Low,Low
+BlackWalnut,NorthernForest,Low ,Moderate ,Moderate,Low
+BlackWalnut,EasternWoodland,Low,Moderate ,Low,Low
+BlackWalnut,RockyMountains,Low,Low,Low,Low
+BlackWalnut,CentralForest,Moderate ,Low,Low,Low
+BlackWalnut,BorealForest,Low,High,Moderate,Moderate
+Cedar,NorthernForest,Moderate ,High ,Low,Low
+Cedar,EasternWoodland,High,Low,Low,Moderate
+Cedar,RockyMountains,Low,Moderate ,Low,Low
+Cedar,CentralForest,Low,Low,Low,Low
+Cedar,BorealForest,Low,Moderate ,Low,Low
+Cherry,NorthernForest,High,Low,Low,Moderate
+Cherry,EasternWoodland,Low ,Moderate ,Moderate,Low
+Cherry,RockyMountains,Low,Moderate ,Low,Low
+Cherry,CentralForest,Low,Low,Low,Low
+Cherry,BorealForest,Moderate ,Low,Low,Low
+Chestnut,NorthernForest,Low,High,Moderate,Moderate
+Chestnut,EasternWoodland,Moderate ,High ,Low,Low
+Chestnut,RockyMountains,Low ,Moderate ,Moderate,Low
+Chestnut,CentralForest,Low,Moderate ,Low,Low
+Chestnut,BorealForest,Low,Low,Low,Low
+Cottonwood,NorthernForest,Moderate ,Low,Low,Low
+Cottonwood,EasternWoodland,Low,High,Moderate,Moderate
+Cottonwood,RockyMountains,Moderate ,High ,Low,Low
+Cottonwood,CentralForest,High,Low,Low,Moderate
+Cottonwood,BorealForest,Low,Moderate ,Low,Low
+Cypress,NorthernForest,Low,Low,Low,Low
+Cypress,EasternWoodland,Low,Moderate ,Low,Low
+Cypress,RockyMountains,Low ,Moderate ,Moderate,Low
+Cypress,CentralForest,Low,Moderate ,Low,Low
+Cypress,BorealForest,Low,Low,Low,Low
+Dogwood,NorthernForest,Moderate ,Low,Low,Low
+Dogwood,EasternWoodland,Low,High,Moderate,Moderate
+Dogwood,RockyMountains,Moderate ,High ,Low,Low
+Dogwood,CentralForest,High,Low,Low,Moderate
+Dogwood,BorealForest,Low,Moderate ,Low,Low
+DouglasFir,NorthernForest,Low,Low,Low,Low
+DouglasFir,EasternWoodland,Low,Moderate ,Low,Low
+DouglasFir,RockyMountains,Low ,Moderate ,Moderate,Low
+DouglasFir,CentralForest,Low,Moderate ,Low,Low
+DouglasFir,BorealForest,Low,Low,Low,Low
+Maple,NorthernForest,Moderate ,Low,Low,Low
+Maple,EasternWoodland,Low,High,Moderate,Moderate
+Maple,RockyMountains,Moderate ,High ,Low,Low
+Maple,CentralForest,High,Low,Low,Moderate
+Maple,BorealForest,Low,Moderate ,Low,Low
+NorwaySpruce,NorthernForest,Low ,Moderate ,Moderate,Low
+NorwaySpruce,EasternWoodland,Low,Moderate ,Low,Low
+NorwaySpruce,RockyMountains,Low,Low,Low,Low
+NorwaySpruce,CentralForest,Moderate ,Low,Low,Low
+NorwaySpruce,BorealForest,Low,High,Moderate,Moderate
+Oak,NorthernForest,Low ,Moderate ,Moderate,Low
+Oak,EasternWoodland,Low,Moderate ,Low,Low
+Oak,RockyMountains,Low,Low,Low,Low
+Oak,CentralForest,Moderate ,Low,Low,Low
+Oak,BorealForest,Low,High,Moderate,Moderate
+Pecan,NorthernForest,Moderate ,High ,Low,Low
+Pecan,EasternWoodland,High,Low,Low,Moderate
+Pecan,RockyMountains,Low,Moderate ,Low,Low
+Pecan,CentralForest,Low,Low,Low,Low
+Pecan,BorealForest,Low,Moderate ,Low,Low
+Pine,NorthernForest,Low ,Moderate ,Moderate,Low
+Pine,EasternWoodland,Low,Moderate ,Low,Low
+Pine,RockyMountains,Low,Low,Low,Low
+Pine,CentralForest,Moderate ,Low,Low,Low
+Pine,BorealForest,Low,High,Moderate,Moderate
+Poplar,NorthernForest,Moderate ,High ,Low,Low
+Poplar,EasternWoodland,High,Low,Low,Moderate
+Poplar,RockyMountains,Low,Moderate ,Low,Low
+Poplar,CentralForest,Low,Low,Low,Low
+Poplar,BorealForest,Low,Moderate ,Low,Low
+RedMaple,NorthernForest,Low ,Moderate ,Moderate,Low
+RedMaple,EasternWoodland,Low,Moderate ,Low,Low
+RedMaple,RockyMountains,Low,Low,Low,Low
+RedMaple,CentralForest,Moderate ,Low,Low,Low
+RedMaple,BorealForest,Low,High,Moderate,Moderate
+RedOak,NorthernForest,Moderate ,High ,Low,Low
+RedOak,EasternWoodland,High,Low,Low,Moderate
+RedOak,RockyMountains,Low,Moderate ,Low,Low
+RedOak,CentralForest,Low,Low,Low,Low
+RedOak,BorealForest,Low,Moderate ,Low,Low
+RedSpruce,NorthernForest,Low ,Moderate ,Moderate,Low
+RedSpruce,EasternWoodland,Low,Moderate ,Low,Low
+RedSpruce,RockyMountains,Low,Low,Low,Low
+RedSpruce,CentralForest,Moderate ,Low,Low,Low
+RedSpruce,BorealForest,Low,High,Moderate,Moderate
+Redwood,NorthernForest,Moderate ,High ,Low,Low
+Redwood,EasternWoodland,High,Low,Low,Moderate
+Redwood,RockyMountains,Low,Moderate ,Low,Low
+Redwood,CentralForest,Low,Low,Low,Low
+Redwood,BorealForest,Low,Moderate ,Low,Low
+Sassafras,NorthernForest,Low ,Moderate ,Moderate,Low
+Sassafras,EasternWoodland,Low,Moderate ,Low,Low
+Sassafras,RockyMountains,Low,Low,Low,Low
+Sassafras,CentralForest,Moderate ,Low,Low,Low
+Sassafras,BorealForest,Low,High,Moderate,Moderate
+Spruce,NorthernForest,Moderate ,High ,Low,Low
+Spruce,EasternWoodland,High,Low,Low,Moderate
+Spruce,RockyMountains,Low,Moderate ,Low,Low
+Spruce,CentralForest,Low ,Moderate ,Moderate,Low
+Spruce,BorealForest,Low,Moderate ,Low,Low
+Sweetgum,NorthernForest,Low,Low,Low,Low
+Sweetgum,EasternWoodland,Moderate ,Low,Low,Low
+Sweetgum,RockyMountains,Low,High,Moderate,Moderate
+Sweetgum,CentralForest,Moderate ,High ,Low,Low
+Sweetgum,BorealForest,High,Low,Low,Moderate
+Sycamore,NorthernForest,Low,Moderate ,Low,Low
+Sycamore,EasternWoodland,Low,Low,Low,Low
+Sycamore,RockyMountains,Low,Moderate ,Low,Low
+Sycamore,CentralForest,Low,High,Moderate,Moderate
+Sycamore,BorealForest,Moderate ,High ,Low,Low
+Teak,NorthernForest,High,Low,Low,Moderate
+Teak,EasternWoodland,Low,Moderate ,Low,Low
+Teak,RockyMountains,Low ,Moderate ,Moderate,Low
+Teak,CentralForest,Low,Moderate ,Low,Low
+Teak,BorealForest,Low,Low,Low,Low
+Walnut,NorthernForest,Moderate ,Low,Low,Low
+Walnut,EasternWoodland,Low,High,Moderate,Moderate
+Walnut,RockyMountains,Moderate ,High ,Low,Low
+Walnut,CentralForest,High,Low,Low,Moderate
+Walnut,BorealForest,Low,Moderate ,Low,Low
+WhiteBirch,NorthernForest,Low,Low,Low,Low
+WhiteBirch,EasternWoodland,Low,Moderate ,Low,Low
+WhiteBirch,RockyMountains,Low ,Moderate ,Moderate,Low
+WhiteBirch,CentralForest,Low,Moderate ,Low,Low
+WhiteBirch,BorealForest,Low,Low,Low,Low
+WhiteCedar,NorthernForest,Moderate ,Low,Low,Low
+WhiteCedar,EasternWoodland,Low,High,Moderate,Moderate
+WhiteCedar,RockyMountains,Moderate ,High ,Low,Low
+WhiteCedar,CentralForest,High,Low,Low,Moderate
+WhiteCedar,BorealForest,Low,Moderate ,Low,Low
+Willow,NorthernForest,Low,Low,Low,Low
+Willow,EasternWoodland,Low,Moderate ,Low,Low
+Willow,RockyMountains,Low ,Moderate ,Moderate,Low
+Willow,CentralForest,Low,Moderate ,Low,Low
+Willow,BorealForest,Low,Low,Low,Low
+YellowBirch,NorthernForest,Moderate ,Low,Low,Low
+YellowBirch,EasternWoodland,Low,High,Moderate,Moderate
+YellowBirch,RockyMountains,Moderate ,High ,Low,Low
+YellowBirch,CentralForest,High,Low,Low,Moderate
+YellowBirch,BorealForest,Low,Moderate ,Low,Low
+YellowCedar,NorthernForest,Low,Low,Low,Low
+YellowCedar,EasternWoodland,Low,Moderate ,Low,Low
+YellowCedar,RockyMountains,Low ,Moderate ,Moderate,Low
+YellowCedar,CentralForest,Low,Moderate ,Low,Low
+YellowCedar,BorealForest,Low,Low,Low,Low
+YellowPoplar,NorthernForest,Moderate ,Low,Low,Low
+YellowPoplar,EasternWoodland,Low,High,Moderate,Moderate
+YellowPoplar,RockyMountains,Moderate ,High ,Low,Low
+YellowPoplar,CentralForest,High,Low,Low,Moderate
+YellowPoplar,BorealForest,Low,Moderate ,Moderate,Low

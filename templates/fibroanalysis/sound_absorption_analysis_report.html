@@ -1,0 +1,181 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+  	<title>Fibroanalysis :: SA Analysis Report</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Camping Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <!-- //Meta tag Keywords -->
+
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="{% static 'fibroanalysis/fibroanalysis_home/css/bootstrap.css' %}">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="{% static 'fibroanalysis/fibroanalysis_home/css/style.css' %}" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="{% static 'fibroanalysis/fibroanalysis_home/css/font-awesome.css' %}" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
+    <!-- //Fonts -->
+
+
+	</head>
+  <style>
+
+</style>
+  <body style="background-image: url({% static 'images/banner.jpg' %}); background-repeat:no-repeat;height: 783px;">
+
+	<script>
+	{% for msg in messages %}
+		alert('{{ msg }}');
+	{% endfor %}
+</script>
+
+ <header class="header">
+            <div class="container">
+                <!-- nav -->
+                <nav class="py-3">
+                    <div id="logo">
+                        <h1> <a class="navbar-brand" href="/fibroanalysis_home/">FIBROANALYSIS</a>
+                        </h1>
+                    </div>
+
+                    <label for="drop" class="toggle">Menu</label>
+                    <input type="checkbox" id="drop" />
+                    <ul class="menu mt-2">
+                        <li ><a href="/fibroanalysis_home/">Home</a></li>
+                        <li><a href="/c_report/">Commencify Report</a></li>
+
+      						<li class="dropdown">
+                            <!-- First Tier Drop Down -->
+                            <label for="drop-2" class="toggle">Source Execution<span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                            <a href="#">Source Execution<span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <input type="checkbox" id="drop-2" />
+                            <ul>
+                                <li><a href="/fire_res_analysis/">Fire Resistence</a>
+                                </li>
+                                <li><a href="/thermal_insulation_res_analysis/">Thermal Insulation</a>
+                                </li>
+                                <li><a href="/sound_absorption_res_analysis/">Sound Absorption</a>
+                                </li>
+                            </ul>
+                        </li>
+						     <li class="dropdown">
+                            <!-- First Tier Drop Down -->
+                            <label for="drop-2" class="toggle">View Results<span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                            <a href="#">View Results<span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <input type="checkbox" id="drop-2" />
+                            <ul>
+                                <li><a href="/fire_res_analysis_report/">Fire Resistence</a>
+                                </li>
+                                <li ><a href="/thermal_insulation_analysis_report/">Thermal Insulation</a>
+                                </li>
+                                <li class="active"><a href="/sound_absorption_analysis_report/">Sound Absorption</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="/fibroanalysis_logout/">Logout</a>
+                        </li>
+
+                    </ul>
+
+
+                </nav>
+                <!-- //nav -->
+            </div>
+        </header>
+
+
+
+
+<br><br>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 style="margin-right:-50px;color:white;" class="heading-section">SOUND ABSORPTION ANALYSIS REPORT</h2>
+				</div>
+			</div>
+			<div class="row" style="max-height: 430px;
+            overflow-y: auto; overflow-x: auto; ">
+				<div class="col-md-12">
+					<div class="table-wrap">
+						<table class="table">
+						  <thead class="thead-primary" style="position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 2;">
+						    <tr style="background-color:#448EE4; color:black;font-size: 14px;">
+						           <th style="color:black;text-align:center;">S.ID</th>
+						      <th style="color:black;text-align:center;">TREE SPECIES</th>
+						      <th style="color:black;text-align:center;">TREE ORIGIN</th>
+						      <th style="color:black;text-align:center;">REFLECTION</th>
+								 <th style="color:black;text-align:center;">TRANSMISSION</th>
+						      <th style="color:black;text-align:center;">SOUND ABSORPTION</th>
+                                 <th style="color:black;text-align:center;">SOUND ABSORPTION LEVEL</th>
+                                    <th style="color:black;text-align:center;">SOUND ABSORPTION PLOT</th>
+
+						    </tr>
+						  </thead>
+						  <tbody style="background-color:white; color:black;font-size: 14px;">
+						  {% for i in data %}
+						    <tr>
+                                <td style="color:black;text-align:center;" >{{i.s_id}}</td>
+						        <td style="color:black;text-align:center;">{{i.tree_species}}</td>
+						        <td style="color:black;text-align:center;">{{i.tree_origin}}</td>
+						        <td style="color:black;text-align:center;">{{i.coefficient_of_reflection}}</td>
+                                <td style="color:black;text-align:center;">{{i.coefficient_of_transmission}}</td>
+                                <td style="color:black;text-align:center;">{{i.sound_absorption}}</td>
+                                <td style="color:black;text-align:center;">{{i.sound_absorption_level}}</td>
+                                <td>
+                                    {% if i.sound_absorption_plot %}
+                                        <a href="{{ i.sound_absorption_plot.url }}" target="_blank">
+                                            <img src="{{ i.sound_absorption_plot.url }}"  style="max-width: 150px; max-height: 150px;">
+                                        </a>
+                                    {% else %}
+                                    No file available
+                                    {% endif %}
+                                </td>
+							</tr>
+						  {% endfor %}
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<br><br><br><br>
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+	</body>
+</html>
+

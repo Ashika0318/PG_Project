@@ -1,0 +1,384 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+  	<title>Commencify :: Result Record </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Growing Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="{% static 'administrator/admin_home/css/bootstrap.css' %}" type="text/css" rel="stylesheet" media="all">
+<link href="{% static 'administrator/admin_home/css/style.css' %}" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="{% static 'administrator/admin_home/css/flexslider.css' %}" type="text/css" media="all" property="" />
+<!-- //Custom Theme files -->
+<!-- font-awesome icons -->
+<link href="{% static 'administrator/admin_home/css/font-awesome.css' %}" rel="stylesheet">
+<!-- //font-awesome icons -->
+<!-- js -->
+<script src="{% static 'administrator/admin_home/js/jquery-2.2.3.min.js' %}"></script>
+<!-- //js -->
+<!-- smooth scrolling -->
+<!-- web-fonts -->
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- //web-fonts -->
+	</head>
+  <style>
+
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+
+.button-25 {
+  background: #039487;
+  border: 1px solid #039487;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-25:hover,
+.button-25:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #039487;
+}
+
+.button-25:active {
+  opacity: .5;
+}
+
+
+
+.button-26 {
+  background: #FFFFFF;
+  border: 1px solid #039487;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color:#039487  ;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+
+.button-27 {
+  background: #FFFFFF;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color:#FF4742;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+</style>
+  <body style="background-image: url({% static 'images/banner2.jpg' %}); background-repeat:no-repeat;height: 783px;">
+
+
+	<script>
+	{% for msg in messages %}
+		alert('{{ msg }}');
+	{% endfor %}
+</script>
+
+
+		<div class="header agileinfo-header"><!-- header -->
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a href="/admin_home/"><i class="fa fa-pagelines" aria-hidden="true"></i>Administrator</a></h1>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-left">
+							<li><a href="/admin_home/" class="w3ls-hover">Home</a></li>
+
+							<li><a href="#" class="dropdown-toggle btn w3ls-hover " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Logistrate<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="/scientist_reg/">Client</a></li>
+									<li><a href="/commencify_reg/">Commencify</a></li>
+									<li><a href="/fibroanalysis_reg/">Fibroanalysis</a></li>
+									<li><a href="/ecotoxify_reg/">Ecotoxify</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="dropdown-toggle btn w3ls-hover active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ValidateInsights<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="/commencify_result/">Commencify</a></li>
+									<li><a href="#">Fibroanalysis</a></li>
+									<li><a href="#">Ecotoxify</a></li>
+								</ul>
+							</li>
+							<li><a href="gallery.html" class="btn w3ls-hover">ValidReport</a></li>
+							<li><a href="/admins_logout/" class="btn w3ls-hover">Logout</a></li>
+						</ul>
+						<div class="social-icon">
+<!--							<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> -->
+<!--							<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a> -->
+<!--							<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>  -->
+						</div>
+						<div class="clearfix"> </div>
+					</div><!-- //navbar-collapse -->
+				</div><!-- //container-fluid -->
+			</nav>
+		</div><!-- //header -->
+
+
+
+<br><br><br><br>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 style="margin-right:-600px;color:black;" class="heading-section">COMMENCIFY REPORT</h2>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="table-wrap">
+						<table class="table" style="margin-left:-140px;">
+						  <thead class="thead-primary">
+						    <tr style="background-color:#448EE4; color:black;font-size: 16px;">
+						      <th style="color:black;text-align:center;">S.ID</th>
+						      <th style="color:black;text-align:center;">TREE SPECIES</th>
+						      <th style="color:black;text-align:center;">TREE ORIGIN</th>
+						      <th style="color:black;text-align:center;">AGE</th>
+								 <th style="color:black;text-align:center;">WOOD PROPERTY</th>
+						      <th style="color:black;text-align:center;">DENSITY</th>
+						      <th style="color:black;text-align:center;">HARENESS</th>
+								 <th style="color:black;text-align:center;">GRAIN PATTERN</th>
+								 <th style="color:black;text-align:center;">DURABILITY</th>
+								<th style="color:black;text-align:center;">ECO TOXICOLOGY</th>
+						      <th style="color:black;text-align:center;">ECO TOXICITY</th>
+								 <th style="color:black;text-align:center;">SUSTAINABILITY</th>
+								<th style="color:black;text-align:center;" colspan="2">ACTION</th>
+
+
+						    </tr>
+						  </thead>
+						  <tbody style="background-color:white; color:black;font-size: 16px;">
+						  {% for i in data %}
+						    <tr>
+									      <th style="color:black;text-align:center;" >{{i.s_id}}</th>
+						      <td style="color:black;text-align:center;">{{i.tree_species}}</td>
+						      <td style="color:black;text-align:center;">{{i.tree_origin}}</td>
+						      <td style="color:black;text-align:center;">{{i.age}}</td>
+							<td style="color:black;text-align:center;">{{i.wood_property}}</td>
+
+						      <td style="color:black;text-align:center;">{{i.density}}</td>
+						      <td style="color:black;text-align:center;">{{i.hardness}}</td>
+						      <td style="color:black;text-align:center;">{{i.grain_pattern}}</td>
+
+								<td style="color:black;text-align:center;">{{i.durability}}</td>
+						      <td style="color:black;text-align:center;">{{i.eco_toxicology}}</td>
+						      <td style="color:black;text-align:center;">{{i.eco_toxicity}}</td>
+								<td style="color:black;text-align:center;">{{i.eco_sustainability}}</td>
+
+								{% if i.capprove is False and i.creject is False %}
+							  <td style="text-align:center;"><center><a href="/capprove/{{i.s_id}}/"><button class="button-25">Approve Report</button></a></center></td>
+								<td style="text-align:center;"><center><a href="#"><button class="button-24">Reject Report</button></a></center></td>
+								 {% endif %}
+								{% if i.capprove is True %}
+								<td style="text-align:center;"><center><a ><button class="button-26">Approved</button></a></center></td>
+								 <td style="text-align:center;"><center><a ><button class="button-27">NoAction</button></a></center></td>
+
+								{% elif i.creject is True %}
+								 <td style="text-align:center;"><center><a ><button class="button-27">NoAction</button></a></center></td>
+			 					<td><button class="button-26" role="button">Rejected</button></td>
+								{% endif %}
+
+							</tr>
+						  {% endfor %}
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+	<script defer src="{% static 'administrator/admin_home/js/jquery.flexslider.js' %}"></script>
+		<script type="text/javascript">
+			$(window).load(function(){
+			  $('.flexslider').flexslider({
+				animation: "slide",
+				start: function(slider){
+				  $('body').removeClass('loading');
+				}
+			  });
+			});
+		</script>
+	<!-- End-slider-script -->
+<!-- Flexslider-js for-testimonials -->
+<script type="text/javascript">
+							$(window).load(function() {
+								$("#flexiselDemo1").flexisel({
+									visibleItems:1,
+									animationSpeed: 1000,
+									autoPlay: true,
+									autoPlaySpeed: 3000,
+									pauseOnHover: true,
+									enableResponsiveBreakpoints: true,
+									responsiveBreakpoints: {
+										portrait: {
+											changePoint:480,
+											visibleItems: 1
+										},
+										landscape: {
+											changePoint:640,
+											visibleItems:1
+										},
+										tablet: {
+											changePoint:768,
+											visibleItems: 1
+										}
+									}
+								});
+
+							});
+					</script>
+					<script type="text/javascript" src="{% static 'administrator/admin_home/js/jquery.flexisel.js' %}"></script>
+<!-- //Flexslider-js for-testimonials -->
+
+
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="{% static 'administrator/admin_home/js/move-top.js' %}"></script>
+	<script type="text/javascript" src="{% static 'administrator/admin_home/js/easing.js' %}"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- //end-smooth-scrolling   -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+			};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{% static 'administrator/admin_home/js/bootstrap.js' %}"></script>
+
+	</body>
+</html>
+

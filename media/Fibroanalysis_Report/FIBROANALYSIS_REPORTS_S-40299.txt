@@ -1,0 +1,27 @@
+FIBROANALYSIS REPORTS
+
+S.ID: S-40299
+----------------------------------------------------
+Fire Resistence
+----------------------------------------------------
+Thickness: 0.75
+Charring Rate: 0.6
+Critical Section Depth: 1.6666666666666667
+Fire Resistence: 1.25
+Fire Resistence Level: Low
+----------------------------------------------------
+Thermal Insulation
+----------------------------------------------------
+T1: 0.75
+T2: 0.6
+Thermal Conductivity Rate Difference: 4.000057
+Average Thermal Conductivity: 0.21
+Thermal Conductivity Level: High
+Thermal Insulation Level: Low
+----------------------------------------------------
+Sound Absorption
+----------------------------------------------------
+Reflection: 0.5
+Transmission: 0.0
+Sound Absorption: 0.5
+Sound Absorption Level: Effective

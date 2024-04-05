@@ -1,0 +1,49 @@
+CHEMICAL PRINTS REPORTS
+
+S.ID: S-22883
+----------------------------------------------------
+Origination(Commencify)
+----------------------------------------------------
+Tree Species: Cedar
+Tree Origin: EasternWoodland
+Tree Age : 25
+Tree Wood Property: Hardwood 
+Tree Density: 0.3
+Tree Hardness: 200
+Tree Grain Pattern: Wavy          
+Tree Durability: 0.95
+Tree Eco-Toxicology: Low            
+Tree Eco-Toxicity: 0.2
+Tree Eco-Sustainability: Low
+----------------------------------------------------
+Fire Resistence
+----------------------------------------------------
+Thickness: 0.625
+Charring Rate: 0.55
+Critical Section Depth: 1.8181818181818181
+Fire Resistence: 1.1363636363636362
+Fire Resistence Level: Low
+----------------------------------------------------
+Thermal Insulation
+----------------------------------------------------
+T1: 0.625
+T2: 0.55
+Thermal Conductivity Rate Difference: 3.000057
+Average Thermal Conductivity: 0.18
+Thermal Conductivity Level: High
+Thermal Insulation Level: Low
+----------------------------------------------------
+Sound Absorption
+----------------------------------------------------
+Reflection: 0.6
+Transmission: 0.3
+Sound Absorption: 0.10000000000000003
+Sound Absorption Level: Less Effective
+----------------------------------------------------
+Eco Toxicity
+----------------------------------------------------
+Reflection: 0.36349999999999993
+Acute Toxicity[Humans]: High
+Acute Toxicity[Wildlife]: Low
+Chronic Toxicity[Humans] : Low
+Chronic Toxicity[Wildlife]: Moderate

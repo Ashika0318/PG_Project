@@ -1,0 +1,49 @@
+CHEMICAL PRINTS REPORTS
+
+S.ID: S-45044
+----------------------------------------------------
+Origination(Commencify)
+----------------------------------------------------
+Tree Species: BlackCherry
+Tree Origin: EasternWoodland
+Tree Age : 30
+Tree Wood Property: Mixed
+Tree Density: 0.55
+Tree Hardness: 600
+Tree Grain Pattern: Wavy
+Tree Durability: 0.8
+Tree Eco-Toxicology: High 
+Tree Eco-Toxicity: 0.9
+Tree Eco-Sustainability: High
+----------------------------------------------------
+Fire Resistence
+----------------------------------------------------
+Thickness: 1.0
+Charring Rate: 0.6
+Critical Section Depth: 1.6666666666666667
+Fire Resistence: 1.6666666666666667
+Fire Resistence Level: High
+----------------------------------------------------
+Thermal Insulation
+----------------------------------------------------
+T1: 1.0
+T2: 0.6
+Thermal Conductivity Rate Difference: 5.000057
+Average Thermal Conductivity: 0.24
+Thermal Conductivity Level: High
+Thermal Insulation Level: Low
+----------------------------------------------------
+Sound Absorption
+----------------------------------------------------
+Reflection: 0.2
+Transmission: 0.0
+Sound Absorption: 0.8
+Sound Absorption Level: Effective
+----------------------------------------------------
+Eco Toxicity
+----------------------------------------------------
+Reflection: 0.6059999999999995
+Acute Toxicity[Humans]: High
+Acute Toxicity[Wildlife]: Low
+Chronic Toxicity[Humans] : Low
+Chronic Toxicity[Wildlife]: Moderate

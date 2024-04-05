@@ -1,0 +1,181 @@
+tree_species,tree_origin,age,wood_property,density,hardness,grain_pattern,durability,eco_toxicology,eco_toxicity,eco_sustainability
+Alder,NorthernForest,20,Hardwood ,0.4,350,Straight,0.6,Low,0.1,Low
+Alder,EasternWoodland,15,Softwood ,0.3,200,Wavy,0.62,Moderate ,0.5,Medium
+Alder,RockyMountains,25,Mixed,0.45,400,Interlocked ,0.65,High ,0.9,High
+Alder,CentralForest,18,Hardwood ,0.42,300,Straight,0.7,Low,0.2,Low
+Alder,BorealForest,30,Softwood ,0.35,250,Wavy,0.75,Moderate ,0.4,Medium
+Ash,BorealForest,22,Hardwood ,0.55,600,Straight,0.87,Low,0.1,Low
+Ash,RockyMountains,17,Softwood ,0.4,350,Wavy,0.9,High ,0.8,High
+Ash,CentralForest,10,Hardwood ,0.58,650,Straight,0.92,Moderate ,0.5,Medium
+Ash,EasternWoodland,28,Mixed,0.52,500,Interlocked ,0.8,Low,0.2,Low
+Ash,NorthernForest,23,Softwood ,0.45,400,Wavy,0.85,High ,0.7,High 
+Aspen,NorthernForest,12,Hardwood ,0.38,280,Straight,0.92,Moderate ,0.4,Medium
+Aspen,EasternWoodland,20,Softwood ,0.32,180,Wavy,0.85,High ,0.8,High
+Aspen,RockyMountains,15,Hardwood ,0.4,320,Straight,0.95,Low,0.1,Low
+Aspen,CentralForest,18,Softwood ,0.36,260,Wavy,0.75,Moderate ,0.5,Medium
+Aspen,BorealForest,25,Mixed,0.42,300,Interlocked ,0.98,High ,0.9,High
+Beech,NorthernForest,30,Hardwood ,0.6,700,Straight,0.92,Moderate ,0.4,Medium
+Beech,EasternWoodland,22,Mixed,0.55,600,Wavy,0.85,High ,0.8,High
+Beech,RockyMountains,18,Hardwood ,0.58,650,Straight,0.87,Low,0.2,Low
+Beech,CentralForest,25,Softwood ,0.62,750,Wavy,0.95,Moderate ,0.5,Medium
+Beech,BorealForest,28,Mixed,0.56,550,Interlocked ,1,High ,0.9,High
+Birch,NorthernForest,15,Softwood ,0.34,240,Wavy,0.98,High ,0.7,Low
+Birch,EasternWoodland,20,Mixed,0.42,300,Straight,0.95,Low,0.1,Low
+Birch,RockyMountains,18,Hardwood ,0.37,270,Wavy,0.92,Moderate ,0.4,Medium
+Birch,CentralForest,22,Softwood ,0.38,280,Straight,1,High ,0.8,High
+Birch,BorealForest,25,Mixed,0.39,290,Interlocked ,1.05,Low,0.2,Low
+BlackCherry,NorthernForest,25,Hardwood ,0.58,650,Straight,0.75,Moderate ,0.5,Medium
+BlackCherry,EasternWoodland,30,Mixed,0.55,600,Wavy,0.8,High ,0.9,High
+BlackCherry,RockyMountains,18,Hardwood ,0.6,700,Straight,0.85,Low,0.1,Low
+BlackCherry,CentralForest,22,Softwood ,0.56,550,Wavy,0.92,Moderate ,0.4,Medium
+BlackCherry,BorealForest,28,Mixed,0.62,750,Interlocked ,0.95,High ,0.8,High
+BlackWalnut,NorthernForest,35,Hardwood ,0.7,800,Straight,0.92,Low,0.2,Low
+BlackWalnut,EasternWoodland,15,Softwood ,0.65,750,Wavy,0.85,Moderate ,0.5,Medium
+BlackWalnut,RockyMountains,28,Mixed,0.72,850,Straight,0.87,High ,0.9,High
+BlackWalnut,CentralForest,30,Hardwood ,0.68,780,Wavy,0.92,Low,0.1,Low
+BlackWalnut,BorealForest,33,Mixed,0.75,900,Interlocked ,0.95,Moderate ,0.4,Medium
+Cedar,NorthernForest,40,Softwood ,0.35,250,Straight,0.98,High ,0.7,Low
+Cedar,EasternWoodland,25,Hardwood ,0.3,200,Wavy,0.95,Low,0.2,Low
+Cedar,RockyMountains,30,Mixed,0.38,280,Straight,0.92,Moderate ,0.5,Medium
+Cedar,CentralForest,35,Softwood ,0.36,260,Wavy,1,High ,0.8,High
+Cedar,BorealForest,38,MixedClient,0.4,320,Interlocked ,1.05,Low,0.1,Low
+Cherry,NorthernForest,22,Hardwood ,0.58,650,Straight,0.6,Moderate ,0.4,Medium
+Cherry,EasternWoodland,18,Softwood ,0.52,500,Wavy,0.62,High ,0.9,High
+Cherry,RockyMountains,20,Mixed,0.55,600,Straight,0.65,Low,0.2,Low
+Cherry,CentralForest,25,Hardwood ,0.6,700,Wavy,0.7,Moderate ,0.5,Medium
+Cherry,BorealForest,28,Mixed,0.56,550,Interlocked ,0.75,High ,0.8,High
+Chestnut,NorthernForest,30,Hardwood ,0.62,750,Straight,0.95,Low,0.1,Low
+Chestnut,EasternWoodland,22,Mixed,0.58,650,Wavy,0.98,Moderate ,0.4,Medium
+Chestnut,RockyMountains,18,Hardwood ,0.65,750,Straight,0.92,High ,0.9,High
+Chestnut,CentralForest,12,Softwood ,0.6,700,Wavy,1,Low,0.2,Low
+Chestnut,BorealForest,25,Mixed,0.68,780,Interlocked ,1.05,Moderate ,0.5,Medium
+Cottonwood,NorthernForest,20,Softwood ,0.42,300,Straight,1.1,High ,0.8,High
+Cottonwood,EasternWoodland,15,Mixed,0.38,280,Wavy,1.08,Low,0.1,Low
+Cottonwood,RockyMountains,25,Hardwood ,0.45,400,Straight,1.05,Moderate ,0.4,Medium
+Cottonwood,CentralForest,18,Softwood ,0.44,380,Wavy,1.15,High ,0.9,High
+Cottonwood,BorealForest,30,Mixed,0.48,450,Interlocked ,1.2,Low,0.2,Low
+Cypress,NorthernForest,25,Hardwood ,0.5,500,Straight,0.72,Moderate ,0.5,Medium
+Cypress,EasternWoodland,20,Mixed,0.48,450,Wavy,0.75,High ,0.8,High
+Cypress,RockyMountains,22,Hardwood ,0.55,600,Straight,0.8,Low,0.1,Low
+Cypress,CentralForest,28,Softwood ,0.52,500,Wavy,0.85,Moderate ,0.4,Medium
+Cypress,BorealForest,30,Mixed,0.58,650,Interlocked ,0.92,High ,0.9,High
+Dogwood,NorthernForest,15,Softwood ,0.32,180,Wavy,0.7,Low,0.2,Low
+Dogwood,EasternWoodland,18,Mixed,0.28,120,Interlocked ,0.75,Moderate ,0.5,Medium
+Dogwood,RockyMountains,20,Hardwood ,0.35,250,Straight,0.8,High ,0.8,High
+Dogwood,CentralForest,10,Softwood ,0.3,200,Wavy,0.85,Low,0.1,Low
+Dogwood,BorealForest,25,Mixed,0.38,280,Interlocked ,0.92,Moderate ,0.4,Medium
+DouglasFir,NorthernForest,30,Softwood ,0.45,400,Straight,0.4,High ,0.9,High
+DouglasFir,EasternWoodland,25,Mixed,0.42,300,Wavy,0.42,Low,0.2,Low
+DouglasFir,RockyMountains,28,Hardwood ,0.5,500,Straight,0.45,Moderate ,0.5,Medium
+DouglasFir,CentralForest,22,Softwood ,0.48,450,Wavy,0.5,High ,0.8,High
+DouglasFir,BorealForest,35,Mixed,0.52,500,Interlocked ,0.55,Low,0.1,High
+Maple,NorthernForest,20,Hardwood ,0.55,600,Straight,0.75,Moderate ,0.4,Medium
+Maple,EasternWoodland,22,Mixed,0.5,500,Wavy,0.8,High ,0.9,High
+Maple,RockyMountains,18,Hardwood ,0.58,650,Straight,0.85,Low,0.2,High
+Maple,CentralForest,25,Softwood ,0.56,550,Wavy,0.92,Moderate ,0.5,Medium
+Maple,BorealForest,15,Mixed,0.52,500,Interlocked ,0.95,High ,0.8,High
+NorwaySpruce,NorthernForest,35,Softwood ,0.4,320,Straight,0.85,Low,0.2,High
+NorwaySpruce,EasternWoodland,30,Mixed,0.38,280,Wavy,0.87,Moderate ,0.5,Medium
+NorwaySpruce,RockyMountains,25,Hardwood ,0.45,400,Straight,0.92,High ,0.9,High
+NorwaySpruce,CentralForest,38,Softwood ,0.42,300,Wavy,0.95,Low,0.1,High
+NorwaySpruce,BorealForest,40,Mixed,0.48,450,Interlocked ,0.98,Low,0.1,High
+Oak,NorthernForest,25,Hardwood ,0.6,700,Straight,0.92,Moderate ,0.5,Medium
+Oak,EasternWoodland,30,Mixed,0.55,600,Wavy,0.95,High ,0.9,High
+Oak,RockyMountains,18,Hardwood ,0.58,650,Straight,1,Low,0.2,High
+Oak,CentralForest,22,Softwood ,0.62,750,Wavy,1.05,Moderate ,0.4,Medium
+Oak,BorealForest,28,Mixed,0.56,550,Interlocked ,0.92,Low,0.1,High
+Pecan,NorthernForest,40,Hardwood ,0.7,800,Straight,0.95,High ,0.8,High
+Pecan,EasternWoodland,35,Mixed,0.65,750,Wavy,0.85,Moderate ,0.5,Medium
+Pecan,RockyMountains,30,Hardwood ,0.72,850,Straight,0.87,Low,0.2,High
+Pecan,CentralForest,38,Softwood ,0.68,780,Wavy,0.92,High ,0.7,Low
+Pecan,BorealForest,20,Mixed,0.75,900,Interlocked ,0.95,Moderate ,0.4,Medium
+Pine,NorthernForest,22,Softwood ,0.42,300,Straight,0.98,High ,0.8,Low
+Pine,EasternWoodland,18,Mixed,0.38,280,Wavy,0.92,Low,0.1,High
+Pine,RockyMountains,20,Hardwood ,0.45,400,Straight,0.95,Moderate ,0.5,Medium
+Pine,CentralForest,25,Softwood ,0.44,380,Wavy,1,High ,0.9,Low
+Pine,BorealForest,28,Mixed,0.48,450,Interlocked ,1.05,Moderate ,0.4,Medium
+Poplar,NorthernForest,15,Hardwood ,0.38,200,Straight,0.6,High ,0.8,High
+Poplar,EasternWoodland,20,Softwood ,0.39,210,Wavy,0.62,Low,0.2,High
+Poplar,RockyMountains,18,Mixed,0.4,220,Interlocked ,0.65,Moderate ,0.5,Medium
+Poplar,CentralForest,22,Hardwood ,0.42,230,Straight,0.7,High ,0.9,High
+Poplar,BorealForest,25,Softwood ,0.45,250,Wavy,0.75,High ,0.7,Low
+RedMaple,NorthernForest,28,Hardwood ,0.52,300,Straight,0.87,Low,0.1,High
+RedMaple,EasternWoodland,30,Softwood ,0.53,310,Wavy,0.9,Moderate ,0.4,Medium
+RedMaple,RockyMountains,25,Hardwood ,0.55,320,Straight,0.92,High ,0.8,High
+RedMaple,CentralForest,20,Mixed,0.48,270,Interlocked ,0.8,Low,0.2,High
+RedMaple,BorealForest,12,Softwood ,0.5,280,Wavy,0.85,Moderate ,0.5,Medium
+RedOak,NorthernForest,30,Hardwood ,0.55,330,Straight,0.92,High ,0.9,High
+RedOak,EasternWoodland,25,Softwood ,0.5,280,Wavy,0.85,Low,0.1,High
+RedOak,RockyMountains,28,Hardwood ,0.58,360,Straight,0.95,Moderate ,0.4,Medium
+RedOak,CentralForest,22,Softwood ,0.45,250,Wavy,0.75,High ,0.8,High
+RedOak,BorealForest,35,Mixed,0.6,380,Interlocked ,0.98,Low,0.2,High
+RedSpruce,NorthernForest,35,Hardwood ,0.55,330,Straight,0.92,Moderate ,0.5,Medium
+RedSpruce,EasternWoodland,30,Mixed,0.5,280,Wavy,0.85,High ,0.9,High
+RedSpruce,RockyMountains,25,Hardwood ,0.52,300,Straight,0.87,Low,0.1,High
+RedSpruce,CentralForest,38,Softwood ,0.58,360,Wavy,0.95,Moderate ,0.4,Medium
+RedSpruce,BorealForest,40,Mixed,0.62,400,Interlocked ,1,High ,0.9,High
+Redwood,NorthernForest,40,Softwood ,0.6,380,Wavy,0.98,Low,0.2,High
+Redwood,EasternWoodland,35,Mixed,0.58,360,Straight,0.95,Moderate ,0.5,Medium
+Redwood,RockyMountains,30,Hardwood ,0.55,330,Wavy,0.92,High ,0.8,High
+Redwood,CentralForest,38,Softwood ,0.62,400,Straight,1,Low,0.1,High
+Redwood,BorealForest,40,Mixed,0.65,420,Interlocked ,1.05,Moderate ,0.4,Medium
+Sassafras,NorthernForest,20,Hardwood ,0.45,250,Straight,0.75,High ,0.9,High
+Sassafras,EasternWoodland,25,Mixed,0.48,270,Wavy,0.8,Low,0.2,High
+Sassafras,RockyMountains,22,Hardwood ,0.5,280,Straight,0.85,Moderate ,0.5,Medium
+Sassafras,CentralForest,28,Softwood ,0.55,330,Wavy,0.92,High ,0.8,High
+Sassafras,BorealForest,30,Mixed,0.58,360,Interlocked ,0.95,Low,0.1,High
+Spruce,NorthernForest,30,Hardwood ,0.55,330,Straight,0.92,Moderate ,0.4,Medium
+Spruce,EasternWoodland,25,Softwood ,0.5,280,Wavy,0.85,High ,0.9,High
+Spruce,RockyMountains,28,Mixed,0.52,300,Straight,0.87,Low,0.2,High
+Spruce,CentralForest,35,Hardwood ,0.55,330,Wavy,0.92,Moderate ,0.5,Medium
+Spruce,BorealForest,38,Mixed,0.58,360,Interlocked ,0.95,High ,0.8,High
+Sweetgum,NorthernForest,35,Softwood ,0.6,380,Straight,0.98,Low,0.1,High
+Sweetgum,EasternWoodland,30,Hardwood ,0.58,360,Wavy,0.95,Moderate ,0.4,Medium
+Sweetgum,RockyMountains,25,Mixed,0.55,330,Straight,0.92,High ,0.9,High
+Sweetgum,CentralForest,40,Softwood ,0.62,400,Wavy,1,Low,0.2,High
+Sweetgum,BorealForest,38,Mixed,0.65,420,Interlocked ,1.05,Moderate ,0.5,Medium
+Sycamore,NorthernForest,18,Hardwood ,0.38,200,Straight,0.6,High ,0.8,High
+Sycamore,EasternWoodland,20,Softwood ,0.39,210,Wavy,0.62,Low,0.1,High
+Sycamore,RockyMountains,25,Mixed,0.4,220,Straight,0.65,Moderate ,0.4,Medium
+Sycamore,CentralForest,30,Hardwood ,0.42,230,Wavy,0.7,High ,0.9,High
+Sycamore,BorealForest,35,Mixed,0.45,250,Interlocked ,0.75,Low,0.2,High
+Teak,NorthernForest,38,Hardwood ,0.58,360,Straight,0.95,Moderate ,0.5,Medium
+Teak,EasternWoodland,40,Mixed,0.6,380,Wavy,0.98,High ,0.8,High
+Teak,RockyMountains,35,Hardwood ,0.55,330,Straight,0.92,Low,0.1,High
+Teak,CentralForest,30,Softwood ,0.62,400,Wavy,1,Moderate ,0.4,Medium
+Teak,BorealForest,42,Mixed,0.65,420,Interlocked ,1.05,High ,0.9,High
+Walnut,NorthernForest,45,Softwood ,0.7,480,Straight,1.1,Low,0.2,High
+Walnut,EasternWoodland,38,Mixed,0.68,460,Wavy,1.08,Moderate ,0.5,Medium
+Walnut,RockyMountains,30,Hardwood ,0.65,420,Straight,1.05,High ,0.8,High
+Walnut,CentralForest,40,Softwood ,0.72,500,Wavy,1.15,Low,0.1,High
+Walnut,BorealForest,42,Mixed,0.75,520,Interlocked ,1.2,Moderate ,0.4,Medium
+WhiteBirch,NorthernForest,25,Hardwood ,0.43,240,Straight,0.72,High ,0.9,High
+WhiteBirch,EasternWoodland,28,Mixed,0.45,250,Wavy,0.75,Low,0.2,High
+WhiteBirch,RockyMountains,22,Hardwood ,0.48,270,Straight,0.8,Moderate ,0.5,Medium
+WhiteBirch,CentralForest,30,Softwood ,0.5,280,Wavy,0.85,High ,0.8,High
+WhiteBirch,BorealForest,35,Mixed,0.55,330,Interlocked ,0.92,Low,0.1,High
+WhiteCedar,NorthernForest,30,Softwood ,0.42,230,Wavy,0.7,Moderate ,0.4,Medium
+WhiteCedar,EasternWoodland,35,Mixed,0.45,250,Interlocked ,0.75,High ,0.9,High
+WhiteCedar,RockyMountains,28,Hardwood ,0.48,270,Straight,0.8,Low,0.2,High
+WhiteCedar,CentralForest,40,Softwood ,0.5,280,Wavy,0.85,High ,0.5,Medium
+WhiteCedar,BorealForest,42,Mixed,0.55,330,Interlocked ,0.92,Low,0.8,High
+Willow,NorthernForest,15,Softwood ,0.28,140,Straight,0.4,Moderate ,0.1,High
+Willow,EasternWoodland,20,Mixed,0.3,150,Wavy,0.42,High ,0.4,Medium
+Willow,RockyMountains,18,Hardwood ,0.32,160,Straight,0.45,Low,0.9,High
+Willow,CentralForest,22,Softwood ,0.35,170,Wavy,0.5,Moderate ,0.2,High
+Willow,BorealForest,25,Mixed,0.38,180,Interlocked ,0.55,High ,0.5,Medium
+YellowBirch,NorthernForest,22,Hardwood ,0.45,250,Straight,0.75,Low,0.8,High
+YellowBirch,EasternWoodland,25,Mixed,0.48,270,Wavy,0.8,Moderate ,0.1,High
+YellowBirch,RockyMountains,20,Hardwood ,0.5,280,Straight,0.85,High ,0.4,Medium
+YellowBirch,CentralForest,28,Softwood ,0.55,330,Wavy,0.92,Low,0.9,High
+YellowBirch,BorealForest,30,Mixed,0.58,360,Interlocked ,0.95,Moderate ,0.2,High
+YellowCedar,NorthernForest,28,Softwood ,0.5,280,Straight,0.85,High ,0.5,Medium
+YellowCedar,EasternWoodland,30,Mixed,0.52,300,Wavy,0.87,Low,0.8,High
+YellowCedar,RockyMountains,25,Hardwood ,0.55,330,Straight,0.92,Moderate ,0.1,High
+YellowCedar,CentralForest,35,Softwood ,0.58,360,Wavy,0.95,High ,0.4,Medium
+YellowCedar,BorealForest,38,Mixed,0.6,380,Interlocked ,0.98,Low,0.9,High
+YellowPoplar,NorthernForest,30,Hardwood ,0.55,330,Straight,0.92,Moderate ,0.2,High
+YellowPoplar,EasternWoodland,35,Mixed,0.58,360,Wavy,0.95,High ,0.5,Medium
+YellowPoplar,RockyMountains,28,Hardwood ,0.62,400,Straight,1,Low,0.8,High
+YellowPoplar,CentralForest,40,Softwood ,0.65,420,Wavy,1.05,Moderate ,0.1,High
+YellowPoplar,BorealForest,38,Mixed,0.68,460,Interlocked ,0.98,High ,0.4,Medium

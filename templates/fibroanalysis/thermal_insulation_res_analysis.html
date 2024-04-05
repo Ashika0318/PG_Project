@@ -1,0 +1,216 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+  	<title>Commencify :: Reg_Record </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Camping Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <!-- //Meta tag Keywords -->
+
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="{% static 'fibroanalysis/fibroanalysis_home/css/bootstrap.css' %}">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="{% static 'fibroanalysis/fibroanalysis_home/css/style.css' %}" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="{% static 'fibroanalysis/fibroanalysis_home/css/font-awesome.css' %}" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
+    <!-- //Fonts -->
+
+
+	</head>
+  <style>
+
+</style>
+  <body style="background-image: url({% static 'images/banner.jpg' %}); background-repeat:no-repeat;height: 783px;">
+
+	<script>
+	{% for msg in messages %}
+		alert('{{ msg }}');
+	{% endfor %}
+</script>
+
+ <header class="header">
+            <div class="container">
+                <!-- nav -->
+                <nav class="py-3">
+                    <div id="logo">
+                        <h1> <a class="navbar-brand" href="/fibroanalysis_home/">FIBROANALYSIS</a>
+                        </h1>
+                    </div>
+
+                    <label for="drop" class="toggle">Menu</label>
+                    <input type="checkbox" id="drop" />
+                    <ul class="menu mt-2">
+                        <li ><a href="/fibroanalysis_home/">Home</a></li>
+                        <li ><a href="/c_report/">Commencify Report</a></li>
+						
+      						<li  class="dropdown">
+                            <!-- First Tier Drop Down -->
+                            <label for="drop-2" class="toggle">Source Execution<span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                            <a href="#">Source Execution<span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <input type="checkbox" id="drop-2" />
+                            <ul>
+                                <li ><a href="/fire_res_analysis/">Fire Resistence</a>
+                                </li>
+                                <li class="active"><a href="/thermal_insulation_res_analysis/">Thermal Insulation</a>
+                                </li>
+                                <li><a href="/sound_absorption_res_analysis/">Sound Absorption</a>
+                                </li>
+                            </ul>
+                        </li>
+						     <li class="dropdown">
+                            <!-- First Tier Drop Down -->
+                            <label for="drop-2" class="toggle">View Results<span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                            <a href="#">View Results<span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <input type="checkbox" id="drop-2" />
+                            <ul>
+                                <li><a href="/fire_res_analysis_report/">Fire Resistence</a>
+                                </li>
+                                <li><a href="/thermal_insulation_analysis_report/">Thermal Insulation</a>
+                                </li>
+                                <li><a href="/sound_absorption_analysis_report/">Sound Absorption</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="/fibroanalysis_logout/">Logout</a>
+                        </li>
+
+                    </ul>
+
+
+                </nav>
+                <!-- //nav -->
+            </div>
+        </header>
+
+
+
+
+<br><br><br><br>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 style="margin-right:-50px;color:white;" class="heading-section">THERMAL INSULATION ANALYSIS</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="table-wrap">
+						<table class="table">
+						  <thead class="thead-primary">
+						    <tr style="background-color:#448EE4; color:black;font-size: 14px;">
+						      <th style="color:black;text-align:center;">S.ID</th>
+						      <th style="color:black;text-align:center;">TREE SPECIES</th>
+						      <th style="color:black;text-align:center;">TREE ORIGIN</th>
+						      <th style="color:black;text-align:center;">AGE</th>
+								 <th style="color:black;text-align:center;">WOOD PROPERTY</th>
+						      <th style="color:black;text-align:center;">DENSITY</th>
+						      <th style="color:black;text-align:center;">HARENESS</th>
+								 <th style="color:black;text-align:center;">GRAIN PATTERN</th>
+								 <th style="color:black;text-align:center;">DURABILITY</th>
+								<th style="color:black;text-align:center;">ECO TOXICOLOGY</th>
+						      <th style="color:black;text-align:center;">ECO TOXICITY</th>
+								 <th style="color:black;text-align:center;">SUSTAINABILITY</th>
+								<th style="color:black;text-align:center;">ACTION</th>
+
+						    </tr>
+						  </thead>
+						  <tbody style="background-color:white; color:black;font-size: 14px;">
+						  {% for i in data %}
+						    <tr>
+									      <th style="color:black;text-align:center;" >{{i.s_id}}</th>
+						      <td style="color:black;text-align:center;">{{i.tree_species}}</td>
+						      <td style="color:black;text-align:center;">{{i.tree_origin}}</td>
+						      <td style="color:black;text-align:center;">{{i.age}}</td>
+							<td style="color:black;text-align:center;">{{i.wood_property}}</td>
+
+						      <td style="color:black;text-align:center;">{{i.density}}</td>
+						      <td style="color:black;text-align:center;">{{i.hardness}}</td>
+						      <td style="color:black;text-align:center;">{{i.grain_pattern}}</td>
+
+								<td style="color:black;text-align:center;">{{i.durability}}</td>
+						      <td style="color:black;text-align:center;">{{i.eco_toxicology}}</td>
+						      <td style="color:black;text-align:center;">{{i.eco_toxicity}}</td>
+								<td style="color:black;text-align:center;">{{i.eco_sustainability}}</td>
+
+
+								{% if i.tdone3 is False %}
+							  <td style="color:black;text-align:center;"><a href="/f_thermalinsulation/{{i.s_id}}/"><button style="display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;">ANALYZE</button></a></td>
+								{% else %}
+								  <td style="color:black;text-align:center;"><button style="display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;">Analyzed</button></td>
+{% endif %}
+
+							</tr>
+						  {% endfor %}
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<br><br><br><br><br><br><br>
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+	</body>
+</html>
+
